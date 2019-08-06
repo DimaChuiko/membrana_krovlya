@@ -1762,7 +1762,7 @@ pre code {
   .col-sm-5 {
     width: 41.66666667%; }
   .col-sm-4 {
-    width: 33.33333333%; }
+    width: 20%; }
   .col-sm-3 {
     width: 25%; }
   .col-sm-2 {
@@ -1868,7 +1868,7 @@ pre code {
   .col-md-5 {
     width: 41.66666667%; }
   .col-md-4 {
-    width: 33.33333333%; }
+    width: 20%; }
   .col-md-3 {
     width: 25%; }
   .col-md-2 {
@@ -9024,7 +9024,7 @@ label.headline {
 /*------------------- Section Services -----------------*/
 .services {
   padding: 50px 0px;
-  background: url("../img/3.jpg") no-repeat 0px 0px;
+  background: url("../img/7.jpg") no-repeat center;
   background-attachment: fixed;
   background-size: cover; }
 
@@ -9089,7 +9089,7 @@ label.services-line {
   padding: 20px; }
 
 .service-grid3 {
-  background: url("../images/s1.jpg") no-repeat 0px 0px;
+  background-color: #0697e3;
   background-size: cover;
   padding: 20px; }
 
@@ -9122,8 +9122,10 @@ label.services-line {
 /*------------------- //Section Services -----------------*/
 /*------------------- Section About ---------------*/
 .about {
-  background: url("../img/7.jpg") no-repeat center;
-  padding: 50px 0px; }
+  background: url("../img/3.jpg") no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 150px 0px; }
 
 .about-left h3 {
   color: #8B7D2D;
@@ -9132,8 +9134,8 @@ label.services-line {
   padding-bottom: 10px; }
 
 p.w3l {
-  color: #000;
-  font: normal 1.6rem 'Roboto';
+  color: #fff;
+  font: 500 1.8rem 'Roboto';
   padding-top: 20px; }
 
 .about-left h6 {
@@ -9167,7 +9169,7 @@ label.about-line {
 /*---------------- //Section About --------------*/
 /*--------------- Section Portfolio -------------*/
 .portfolio {
-  background: url("../img/1.jpg") no-repeat center;
+  background: url("../img/7.jpg") no-repeat center;
   background-size: cover;
   padding: 50px 0px; }
 
@@ -9233,7 +9235,8 @@ label.portfolio-line {
   border-bottom: 2px solid #fff;
   color: #000;
   padding: 7px 15px;
-  border: 1px solid #000; }
+  border: 1px solid #000;
+  background-color: #ffffff; }
 
 .resp-tab-active {
   background-color: #000;
@@ -9545,7 +9548,7 @@ input[type="submit"]:hover {
   color: #A9A93E; }
 
 /*-- //Footer--*/
-/*-- Responsive--*/
+/*----------------- Responsive ----------------*/
 @media (max-width: 1680px) {
   .bannertext p {
     color: #fff;
@@ -9659,6 +9662,8 @@ input[type="submit"]:hover {
     width: 81%; } }
 
 @media (max-width: 991px) {
+  .col-md-4 {
+    width: 20%; }
   .bannertext {
     width: 35%; }
   .bannertext p {
@@ -10045,6 +10050,7 @@ input[type="submit"]:hover {
   .team ul {
     width: 86%; } }
 
+/*--------------------- @media 320px. ---------------------*/
 @media (max-width: 320px) {
   .bannertext {
     width: 90%; }
@@ -10069,7 +10075,7 @@ input[type="submit"]:hover {
     font-size: 10px;
     margin: 0 0.1em 0; }
   .portfolio-grids {
-    width: 100%; }
+    width: 50%; }
   .portfolio-grid5 {
     margin-bottom: 20px; }
   .b-wrapper h5 {
