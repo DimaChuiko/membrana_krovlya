@@ -9023,9 +9023,8 @@ label.headline {
 /*-- //Header --*/
 /*------------------- Section Services -----------------*/
 .services {
-  padding: 50px 0px;
-  background: url("../img/7.jpg") no-repeat center;
-  background-attachment: fixed;
+  padding: 150px 0px;
+  background: url("../img/999.jpg") no-repeat center;
   background-size: cover; }
 
 .services h3 {
@@ -9123,7 +9122,7 @@ label.services-line {
 /*------------------- Section About ---------------*/
 .about {
   background: url("../img/3.jpg") no-repeat center;
-  background-attachment: fixed;
+  height: 100vh;
   background-size: cover;
   padding: 150px 0px; }
 
@@ -9160,8 +9159,8 @@ label.about-line {
   font-size: 14px; }
 
 .about-left a:hover {
-  color: #000;
-  border: 1px solid #000; }
+  color: #efb20c;
+  border: 1px solid #efb20c; }
 
 .about-right img {
   width: 94%; }
@@ -9169,7 +9168,7 @@ label.about-line {
 /*---------------- //Section About --------------*/
 /*--------------- Section Portfolio -------------*/
 .portfolio {
-  background: url("../img/7.jpg") no-repeat center;
+  background: url("../img/444.jpg") no-repeat center;
   background-size: cover;
   padding: 50px 0px; }
 
